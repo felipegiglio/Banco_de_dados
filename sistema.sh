@@ -1,4 +1,4 @@
-arquivo="Banco.txt"
+arquivo="banco.txt"
 [ ! -e "$arquivo" ] && echo "ERRO . Arquivo não existe. " && exit 1
 [ ! -r "$arquivo" ] && echo "ERRO . Permição de leitura. " && exit 1
 [ ! -w "$arquivo" ] && echo "ERRO . Permição de escrita. " && exit 1
